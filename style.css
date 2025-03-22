@@ -26,6 +26,7 @@ html, body{
 .main{
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 nav{
@@ -60,4 +61,94 @@ nav .nav-contents ul li a{
     font-weight: 900;
     font-size: 1.1rem;
     color: black;
+}
+
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .left{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+.hero-section .right{
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+
+.hero-section .right .main-hero-block .text-box h1{
+    font-family: "Plaster";
+    text-align: center;
+    font-size: 13rem;
+    line-height: 155px;
+}
+
+.hero-section .left .text-box-down h1{
+    font-family: "Plaster";
+    text-align: center;
+    font-size: 10rem;
+    line-height: 120px;
+}
+
+.first-row{
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://freakins.com/cdn/shop/files/16july_19794-Edit.jpg?v=1721391718&width=800");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    letter-spacing: -15px;
+}
+
+.second-row {
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: -15px;
+    background-image: url("https://freakins.com/cdn/shop/files/DSC08030_1411f6b1-7db5-484a-b5cc-25a8ee9480b2.jpg?v=1719254956&width=800");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+}
+
+.third-row {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: -10px;
+    background-image: url("https://freakins.com/cdn/shop/files/Freakins15NOV1532.jpg?v=1732290612&width=800");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+}
+
+.fourth-row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: -10px;
+    background-image: url("https://freakins.com/cdn/shop/files/22April_3809-Edit.jpg?v=1713990446&width=800");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
 }
