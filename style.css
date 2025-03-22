@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Fonts */
+
+.plaster-regular {
+    font-family: "Plaster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comfortaa {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
+    background-color: bisque;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav h1{
+    font-family: "Plaster";
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+}
+
+nav .nav-contents ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav .nav-contents ul li{
+    list-style: none;
+}
+
+nav .nav-contents ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Comfortaa";
+    font-weight: 900;
+    font-size: 1.1rem;
+    color: black;
+}
