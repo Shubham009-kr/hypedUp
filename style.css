@@ -23,6 +23,12 @@ html, body{
     font-style: normal;
 }
 
+.boldonse-regular {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .main{
     height: 100vh;
     width: 100vw;
@@ -151,4 +157,61 @@ nav .nav-contents ul li a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: cover;
+}
+
+.main-bold-text {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-family: "Boldonse";
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 70px;
+}
+
+.cover-text{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    font-family: "Comfortaa";
+    font-size: 1.5rem;
+    max-width: 600px;
+}
+
+.neon-green{
+    background-color: greenyellow;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 2px;
+}
+
+.neon-orange{
+    background-color: orange;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 2px;
+}
+
+.shop-now{
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    box-shadow: 2px 2px 1px black;
+    text-shadow: 2px 2px 1px lightgray;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    font-family: "Boldonse";
+    clip-path: polygon(0% 0%, 88% 0, 100% 50%, 88% 100%, 0% 100%);
+}
+
+.scroll-div{
+    position: absolute;
+    bottom: 16%;
+    right: 0%;
+}
+
+.scroll-div img{
+    width: 60%;
 }
