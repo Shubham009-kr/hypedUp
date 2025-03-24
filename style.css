@@ -215,3 +215,14 @@ nav .nav-contents ul li a{
 .scroll-div img{
     width: 60%;
 }
+
+.clothing-gif{
+    position: absolute;
+    top: 20.5%;
+    left: 10%;
+    z-index: 10;
+}
+
+.clothing-gif img{
+    width: 120%;
+}
