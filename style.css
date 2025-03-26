@@ -252,19 +252,19 @@ nav .nav-contents ul li a{
     .first-row{
         top: 10%;
         left: 10%;
-        background-image: url("https://freakins.com/cdn/shop/files/09-JUNE-PART-2_7826.jpg?v=1718295073&width=800");
+        /* background-image: url("https://freakins.com/cdn/shop/files/09-JUNE-PART-2_7826.jpg?v=1718295073&width=800"); */
     }
     .second-row{
         top: 10%;
         left: 45%;
-        background-image: url("https://freakins.com/cdn/shop/files/TEST8652.jpg?v=1739437453&width=800");
+        /* background-image: url("https://freakins.com/cdn/shop/files/TEST8652.jpg?v=1739437453&width=800"); */
     }
-    .third-row{
+    /* .third-row{
         background-image: url("https://freakins.com/cdn/shop/files/ECOM02514.jpg?v=1701715783&width=800");
     }
     .fourth-row{
         background-image: url("https://freakins.com/cdn/shop/files/22April_5774-Edit.jpg?v=1714038043&width=800");
-    }
+    } */
 
     .main-bold-text {
         font-size: 1.5rem;
