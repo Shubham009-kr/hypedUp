@@ -69,6 +69,10 @@ nav .nav-contents ul li a{
     color: black;
 }
 
+.hamburger{
+    display: none;
+}
+
 .hero-section{
     width: 100%;
     height: 100vh;
@@ -126,7 +130,6 @@ nav .nav-contents ul li a{
     display: flex;
     flex-direction: column;
     letter-spacing: -15px;
-    /* background-image: url("https://freakins.com/cdn/shop/files/DSC08030_1411f6b1-7db5-484a-b5cc-25a8ee9480b2.jpg?v=1719254956&width=800"); */
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -142,7 +145,6 @@ nav .nav-contents ul li a{
     display: flex;
     flex-direction: column;
     letter-spacing: -10px;
-    /* background-image: url("https://freakins.com/cdn/shop/files/Freakins15NOV1532.jpg?v=1732290612&width=800"); */
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -158,7 +160,6 @@ nav .nav-contents ul li a{
     display: flex;
     flex-direction: column;
     letter-spacing: -10px;
-    /* background-image: url("https://freakins.com/cdn/shop/files/22April_3809-Edit.jpg?v=1713990446&width=800"); */
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -260,19 +261,11 @@ nav .nav-contents ul li a{
     .first-row{
         top: 10%;
         left: 10%;
-        /* background-image: url("https://freakins.com/cdn/shop/files/09-JUNE-PART-2_7826.jpg?v=1718295073&width=800"); */
     }
     .second-row{
         top: 10%;
         left: 45%;
-        /* background-image: url("https://freakins.com/cdn/shop/files/TEST8652.jpg?v=1739437453&width=800"); */
     }
-    /* .third-row{
-        background-image: url("https://freakins.com/cdn/shop/files/ECOM02514.jpg?v=1701715783&width=800");
-    }
-    .fourth-row{
-        background-image: url("https://freakins.com/cdn/shop/files/22April_5774-Edit.jpg?v=1714038043&width=800");
-    } */
 
     .main-bold-text {
         font-size: 1.5rem;
@@ -305,5 +298,84 @@ nav .nav-contents ul li a{
     .clothing-gif {
         top: 23.5%;
         left: 35%;
+    }
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media screen and (max-width:431px) {
+    nav h1{
+        font-size: 1.5rem;
+    }
+    .nav-contents, .cart{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+
+    .hero-section{
+        flex-direction: column;
+    }
+    .clothing-gif{
+        top: 4%;
+        left: 70%;
+        width: 80%;
+    }
+    .main-bold-text{
+        top: 5%;
+        left: -65%;
+        font-size: 1.2rem;
+        line-height: 40px;
+        max-width: 1000px;
+    }
+    .shop-now{
+        top: 21.5%;
+        left: 80%;
+        width: 150px;
+        height: 40px;
+        border-radius: 4px;
+        font-size: .9rem;
+    }
+    .hero-section .left .text-box-down h1{
+        font-size: 6.5rem;
+        line-height: 80px;
+        letter-spacing: -5px;
+    }
+    .third-row {
+        top: 40%;
+        left: -67%;
+        letter-spacing: -10px;
+    }
+    .fourth-row{
+        top: 40%;
+        left: 30%;
+    }
+    .cover-text{
+        top: -13%;
+        left: -5%;
+        font-size: 1rem;
+        max-width: 850px;
+    }
+    .hero-section .right .main-hero-block .text-box h1{
+        font-size: 7rem;
+        line-height: 85px;
+        letter-spacing: -5px;
+    }
+    .first-row {
+        top: 15%;
+        left: -28%;
+    }
+    .second-row{
+        top: 15%;
+        left: 35%;
+    }
+
+    .scroll-div{
+        bottom: 28%;
+        right: 2%;
+    }
+    .scroll-div img{
+        width: 40%;
     }
 }
