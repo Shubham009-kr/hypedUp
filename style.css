@@ -126,7 +126,7 @@ nav .nav-contents ul li a{
     display: flex;
     flex-direction: column;
     letter-spacing: -15px;
-    background-image: url("https://freakins.com/cdn/shop/files/DSC08030_1411f6b1-7db5-484a-b5cc-25a8ee9480b2.jpg?v=1719254956&width=800");
+    /* background-image: url("https://freakins.com/cdn/shop/files/DSC08030_1411f6b1-7db5-484a-b5cc-25a8ee9480b2.jpg?v=1719254956&width=800"); */
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -142,7 +142,7 @@ nav .nav-contents ul li a{
     display: flex;
     flex-direction: column;
     letter-spacing: -10px;
-    background-image: url("https://freakins.com/cdn/shop/files/Freakins15NOV1532.jpg?v=1732290612&width=800");
+    /* background-image: url("https://freakins.com/cdn/shop/files/Freakins15NOV1532.jpg?v=1732290612&width=800"); */
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -158,7 +158,7 @@ nav .nav-contents ul li a{
     display: flex;
     flex-direction: column;
     letter-spacing: -10px;
-    background-image: url("https://freakins.com/cdn/shop/files/22April_3809-Edit.jpg?v=1713990446&width=800");
+    /* background-image: url("https://freakins.com/cdn/shop/files/22April_3809-Edit.jpg?v=1713990446&width=800"); */
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
