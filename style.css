@@ -109,12 +109,14 @@ nav .nav-contents ul li a{
     left: 0%;
     display: flex;
     flex-direction: column;
-    background-image: url("https://freakins.com/cdn/shop/files/16july_19794-Edit.jpg?v=1721391718&width=800");
+    /* background-image: url("https://freakins.com/cdn/shop/files/16july_19794-Edit.jpg?v=1721391718&width=800"); */
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: cover;
     letter-spacing: -15px;
+    cursor: pointer;
+    transition: background-image 1s ease-in-out;
 }
 
 .second-row {
@@ -129,6 +131,8 @@ nav .nav-contents ul li a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: cover;
+    cursor: pointer;
+    transition: background-image 1s ease-in-out;
 }
 
 .third-row {
@@ -143,6 +147,8 @@ nav .nav-contents ul li a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: cover;
+    cursor: pointer;
+    transition: background-image 1s ease-in-out;
 }
 
 .fourth-row {
@@ -157,6 +163,8 @@ nav .nav-contents ul li a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: cover;
+    cursor: pointer;
+    transition: background-image 1s ease-in-out;
 }
 
 .main-bold-text {
