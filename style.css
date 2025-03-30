@@ -323,7 +323,7 @@ nav .nav-contents ul li a{
         width: 80%;
     }
     .main-bold-text{
-        top: 5%;
+        top: 4%;
         left: -65%;
         font-size: 1.2rem;
         line-height: 40px;
@@ -338,7 +338,7 @@ nav .nav-contents ul li a{
         font-size: .9rem;
     }
     .hero-section .left .text-box-down h1{
-        font-size: 6.5rem;
+        font-size: 6.2rem;
         line-height: 80px;
         letter-spacing: -5px;
     }
@@ -352,15 +352,15 @@ nav .nav-contents ul li a{
         left: 30%;
     }
     .cover-text{
-        top: -13%;
+        top: -15%;
         left: -5%;
         font-size: 1rem;
         max-width: 850px;
     }
     .hero-section .right .main-hero-block .text-box h1{
         font-size: 7rem;
-        line-height: 85px;
-        letter-spacing: -5px;
+        line-height: 78px;
+        letter-spacing: -7px;
     }
     .first-row {
         top: 15%;
