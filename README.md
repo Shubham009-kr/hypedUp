@@ -22,7 +22,7 @@ This is the front-facing landing page for **HypedUp**, built to showcase bold vi
 - Smooth animations & transitions
 - Email subscription form (for upcoming drops)
 
-## 📂 Folder Structure
+### 📂 Folder Structure
 
 ## 🚧 Status
 
